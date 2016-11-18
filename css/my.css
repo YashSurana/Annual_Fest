@@ -1,0 +1,92 @@
+
+body{
+	background-color:#000;
+}
+.txtcenter{
+	text-align:center;
+}
+.txtcenter>img{
+	width:350px;
+}
+.social-btn-container .social-btn-box a{
+	font-size:18px;
+}
+@media screen and (min-width: 992px){
+	.navbar-fixed-top{
+		z-index:1000;
+	}
+}
+
+/*  Search Employee*/
+#go{
+	    /* */
+    border-radius: 30px;
+    background: transparent;
+    padding: 17px 17px;
+    font-size: 1.5em;
+    font-weight:800;
+    border:1px solid;
+}
+#go:hover{
+	background: #1A1670;
+}
+#searchId{
+	font-size: 1em;
+	border-radius: 5px;
+	background: transparent;
+	width:60%;
+	border:1px solid;
+	height:56px;
+	margin-right:20px;
+	padding-left:10px;
+}
+#searchId:active,#searchId:focus{
+	color: #31B0F0;
+	border-radius: 4px;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+#team {
+	color: white;
+	-webkit-animation: blink 1s linear infinite;
+	-moz-animation: blink 1s linear infinite;
+	-ms-animation: blink 1s linear infinite;
+	-o-animation: blink 1s linear infinite;
+	 animation: blink 1.5s linear infinite;
+}
+
+.modal-content{
+	background-color:darkgray;
+}
+/*#headernavigation>li{
+	font-size:2em;
+	width:220px;
+}*/
